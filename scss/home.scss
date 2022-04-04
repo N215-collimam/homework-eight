@@ -1,0 +1,26 @@
+.content{
+    //background-color: purple;
+    padding: 50px;
+
+    .products{
+        width:900px;
+        //background-color: bisque;
+        min-height: 50px;
+        margin: 0 auto;
+        
+        .product{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .prod-image{
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                background-color: red;
+            }
+
+            
+        }
+    }
+}
