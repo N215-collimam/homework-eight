@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
 #app {
   min-height: calc(100vh + 300px);
   width: 100%;
-  background-color: azure;
+  background-color: lightcyan;
 }
 
 .hero {
@@ -153,6 +153,49 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.content .products .product .about-images h3 {
+  font-size: 35px;
+  font-style: italic;
+}
+.content .products .product .about-images p {
+  margin-bottom: 50px;
+}
+.content .products .product .about-images .about-image1 {
+  height: 225px;
+  width: 475px;
+  background-image: url(../images/blue2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.content .products .product .about-images .about-image2 {
+  height: 225px;
+  width: 475px;
+  background-image: url(../images/about1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.content .products .product .about-images .about-image3 {
+  height: 225px;
+  width: 475px;
+  background-image: url(../images/about3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.content .products .product .about-images .about-image4 {
+  height: 225px;
+  width: 475px;
+  background-image: url(../images/about4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
 }
 .content .products .product .home-desc {
   max-height: 350px;

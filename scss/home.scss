@@ -66,6 +66,61 @@
                     
                 }
             }
+
+            .about-images{
+                
+
+                h3{
+                    font-size: 35px;
+                    font-style: italic;
+                }
+
+                p{
+                    margin-bottom: 50px;
+                }
+
+                .about-image1{
+                    height: 225px;
+                    width: 475px;
+                    background-image: url(../images/blue2.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                    
+                }
+    
+                .about-image2{
+                    height: 225px;
+                    width: 475px;
+                    background-image: url(../images/about1.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                }
+    
+                .about-image3{
+                    height: 225px;
+                    width: 475px;
+                    background-image: url(../images/about3.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                    
+                }
+
+                .about-image4{
+                    height: 225px;
+                    width: 475px;
+                    background-image: url(../images/about4.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                }
+            }
             
 
             .home-desc{
