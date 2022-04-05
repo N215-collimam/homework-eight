@@ -197,6 +197,68 @@ footer {
   background-size: cover;
   margin-bottom: 20px;
 }
+.content .products .product .supplies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -150px;
+}
+.content .products .product .supplies .supplies-image1 {
+  height: 200px;
+  width: 250px;
+  background-image: url(../images/supp1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.content .products .product .supplies .supplies-image2 {
+  height: 200px;
+  width: 250px;
+  background-image: url(../images/supp2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.content .products .product .supplies .supplies-image3 {
+  height: 200px;
+  width: 250px;
+  background-image: url(../images/supp2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.content .products .product .supplies .supplies-image4 {
+  height: 200px;
+  width: 250px;
+  background-image: url(../images/supp3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.content .products .product .supplies .supplies-image5 {
+  height: 200px;
+  width: 250px;
+  background-image: url(../images/supp5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.content .products .product .prod-desc {
+  text-align: center;
+  margin-top: 300px;
+  position: absolute;
+  left: 0px;
+}
 .content .products .product .home-desc {
   max-height: 350px;
   max-width: 550px;

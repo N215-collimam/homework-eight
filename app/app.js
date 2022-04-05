@@ -18,7 +18,7 @@ var homeContent = `<div class="hero"></div>
                 <h2>Shop for supplies and games!</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique tempore est ad, deleniti aspernatur obcaecati dolorum perspiciatis dicta animi quas enim hic dolor dignissimos! Sequi aspernatur iste tempore amet, quaerat dolor ipsam voluptates corporis, facilis eum veniam dignissimos cupiditate pariatur? Fugit, aut veritatis!</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, aliquam. Recusandae et omnis at dolore tempora, architecto perferendis odio obcaecati.</p>
-                <h2>Scedule an event today!</h2>
+                <h2>Schedule an event today!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate culpa quidem, nam cum obcaecati sunt iste ratione id eveniet, vitae eligendi voluptate quia in!</p>
             </div>
         </div>
@@ -45,10 +45,7 @@ var aboutContent = `<div class="hero"></div>
                 <h3>Come visit us!</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis cum doloremque dolore non? Ipsam quam harum dicta veritatis voluptates, sequi eaque facilis eveniet quia, exercitationem quae cupiditate nihil facere impedit soluta quo quisquam quos minima. Quaerat repellendus sequi at reiciendis a ad amet, nihil voluptatibus exercitationem repellat sapiente magnam nesciunt incidunt suscipit! Quidem, fuga enim in illo aliquam molestiae esse tempora mollitia accusantium, necessitatibus laborum, ad aperiam!</p>
             </div>
-                        <div class="prod-image"></div>
-                        <div class="prod-desc">
-                            
-                        </div>
+                        
                     </div>
                 </div>
             </div>`;
@@ -59,11 +56,23 @@ var suppliesContent = `<div class="hero"></div>
                 <h1>SUPPLIES</h1>
                 <div class="products">
                         <div class="product">
-                            <div class="prod-image"></div>
-                            <div class="prod-desc">
-                                <h4>BIG CITY</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur dicta officia, reprehenderit sapiente quo numquam neque eaque ducimus accusamus inventore.</p>
-                            </div>
+                        <div class="supplies">
+                            <div class="supplies-image1"></div>
+                            <div class="supplies-image2"></div>
+                            <div class="supplies-image3"></div>
+                            <div class="supplies-image4"></div>
+                            <div class="supplies-image5"></div>
+                        </div>
+
+                        <div class="prod-desc">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem, accusamus labore tempora beatae doloremque ipsam sunt nemo modi consequuntur nobis molestias pariatur quisquam suscipit.</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed fuga culpa quia est tenetur, perferendis exercitationem assumenda ex vitae eaque eveniet soluta saepe repudiandae eius molestiae libero doloremque similique in possimus totam atque sunt quas harum? Ipsam, vitae impedit provident ratione iure esse eaque amet voluptatum harum at odit doloribus corrupti sit culpa? Nemo vitae itaque natus repellendus, totam nesciunt soluta. Odio laboriosam harum enim?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste doloribus a non eaque dolorum nobis soluta, voluptate provident reiciendis quisquam repellendus qui quo molestias consequuntur sint ab, ducimus quos nostrum officia laudantium corrupti. Amet non quaerat veniam quo sint quis eius aspernatur rem dolores ratione a corporis, deleniti ipsum laboriosam odit! Nisi, ex. Facere adipisci hic fugiat nemo vero accusantium autem voluptatem ratione sequi impedit ipsum eaque officia ut quod temporibus deleniti, sit consectetur, necessitatibus itaque non, quasi iure soluta dignissimos eius! Non praesentium odit suscipit animi. Dicta.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aliquam beatae, aliquid optio quisquam labore veniam! Cupiditate eos debitis inventore blanditiis accusamus dolore ad reprehenderit nemo perspiciatis consequuntur, porro impedit ipsum maxime enim tempora pariatur? Aliquid, voluptatum. Corrupti illum ab ut dicta tempora?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, qui illum? Qui aut nulla eius voluptas perferendis ipsam, voluptatum culpa voluptate expedita ullam sequi molestias sapiente corrupti praesentium nemo officiis aperiam, alias minus! Porro animi, labore distinctio minus similique culpa obcaecati eveniet dignissimos rerum nesciunt optio, assumenda adipisci nobis beatae? Nesciunt voluptates nulla accusamus necessitatibus quibusdam doloribus dolore laudantium minus quas illum, voluptatum iusto veritatis blanditiis molestias tempore voluptatibus praesentium cum laborum deleniti natus unde alias facilis. Labore quasi adipisci molestias eligendi mollitia. Ea dignissimos enim officiis. Iure commodi ullam facilis laboriosam deleniti! Numquam officia expedita quod sit, deserunt excepturi officiis optio minus, nemo amet distinctio dolorum explicabo provident, at praesentium doloremque sed in inventore. Tempora, assumenda ea! Odit id suscipit maiores. Suscipit, cum dignissimos repellat voluptatum fuga numquam perferendis aliquam, explicabo consectetur qui recusandae provident iste molestiae! Labore, blanditiis non ad mollitia eligendi maiores repellat culpa, nihil perferendis consectetur minus, accusamus rem fugiat recusandae deserunt!</p>
+                        <h3>Pick a picture to get started!</h3>
+                    </div>
+
                         </div>
                     </div>
                 </div>`;
