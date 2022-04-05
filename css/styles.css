@@ -31,23 +31,23 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #app {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh + 300px);
   width: 100%;
-  background-color: aqua;
+  background-color: azure;
 }
 
 .hero {
   height: 330px;
-  background-color: aliceblue;
   width: 100%;
-  background-image: url(../images/tour-09.jpg);
+  background-image: url(../images/blue1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 nav {
   height: 50px;
-  background-color: #000;
+  background-color: blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,6 +58,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 nav a {
   text-decoration: none;
@@ -83,6 +84,36 @@ footer {
 .content {
   padding: 50px;
 }
+.content h1 {
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+.content h2 {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
 .content .products {
   width: 900px;
   min-height: 50px;
@@ -97,9 +128,39 @@ footer {
           justify-content: space-between;
   margin-bottom: 30px;
 }
-.content .products .product .prod-image {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  background-color: red;
+.content .products .product .home-images .home-image1 {
+  height: 200px;
+  width: 175px;
+  background-image: url(../images/blue2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.content .products .product .home-images .home-image2 {
+  height: 200px;
+  width: 175px;
+  background-image: url(../images/wall1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.content .products .product .home-images .home-image3 {
+  height: 200px;
+  width: 175px;
+  background-image: url(../images/event1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .products .product .home-desc {
+  max-height: 350px;
+  max-width: 550px;
+  margin-bottom: 100px;
+}
+.content .products .product .home-desc h2 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
 }

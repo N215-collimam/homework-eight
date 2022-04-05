@@ -1,10 +1,29 @@
 .content{
-    //background-color: purple;
     padding: 50px;
+
+    h1{
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    h2{
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
 
     .products{
         width:900px;
-        //background-color: bisque;
         min-height: 50px;
         margin: 0 auto;
         
@@ -13,13 +32,54 @@
             justify-content: space-between;
             margin-bottom: 30px;
 
-            .prod-image{
-                height: 150px;
-                width: 150px;
-                border-radius: 50%;
-                background-color: red;
-            }
+            .home-images{
+                
 
+                .home-image1{
+                    height: 200px;
+                    width: 175px;
+                    background-image: url(../images/blue2.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                    
+                }
+    
+                .home-image2{
+                    height: 200px;
+                    width: 175px;
+                    background-image: url(../images/wall1.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                }
+    
+                .home-image3{
+                    height: 200px;
+                    width: 175px;
+                    background-image: url(../images/event1.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+            }
+            
+
+            .home-desc{
+                max-height: 350px; 
+                max-width: 550px;
+                margin-bottom: 100px;
+
+                h2{
+                    font-size: 30px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    margin-bottom: 30px;
+                }
+                
+            }
             
         }
     }
