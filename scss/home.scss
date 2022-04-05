@@ -187,7 +187,65 @@
                     margin-right: 15px;
                 }
 
+            }
+
+            .event-images{
+                align-items: center;
+                justify-content: center;
+                position: relative;
                 
+
+                h3{
+                    font-size: 45px;
+                    text-align: center;
+                }
+
+                p{
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+
+                .event-image1{
+                    height: 300px;
+                    width: 100%;
+                    background-image: url(../images/event1.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                    
+                }
+    
+                .event-image2{
+                    height: 300px;
+                    width: 100%;
+                    background-image: url(../images/event2.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                }
+    
+                .event-image3{
+                    height: 300px;
+                    width: 100%;
+                    background-image: url(../images/event3.webp);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                    
+                }
+
+                .event-image4{
+                    height: 300px;
+                    width: 100%;
+                    background-image: url(../images/event4.jpg.crdownload);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 20px;
+                }
             }
 
             .prod-desc{
